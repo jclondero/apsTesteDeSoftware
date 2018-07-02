@@ -1,0 +1,94 @@
+* Starting client
+* Connecting to master process on port 7118
+* Analyzing classpath: 
+  - C:\Users\jeanc\eclipse-workspace\javaee\aps\target\classes
+* Finished analyzing classpath
+* Generating tests for class aps.DecimalToAnyBase
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 14:35:45.360 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\jeanc\eclipse-workspace\javaee\aps\.evosuite\evosuite-seeds\aps.DecimalToAnyBase.seed
+* Total number of test goals: 
+  - Line 15
+  - Branch 7
+  - Exception 0
+  - MutationFactory 78
+  - Output 5
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 7
+* Using seed 1530552941824
+* Starting evolution
+* Search finished after 71s and 519 generations, 72699 statements, best individual has fitness: 31.083333333333332
+* Writing sequences to pool
+* Minimizing test suite
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 67%
+* Total number of goals: 15
+* Number of covered goals: 10
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 69%
+* Total number of goals: 78
+* Number of covered goals: 54
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 60%
+* Total number of goals: 5
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 50%
+* Total number of goals: 4
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Generated 8 tests with total length 11
+* Coverage of criterion STATEMENT: 100%
+* Total number of goals: 93
+* Number of covered goals: 93
+* Coverage of criterion ONLYBRANCH: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage of criterion IBRANCH: 88%
+* Total number of goals: 8
+* Number of covered goals: 7
+* Coverage of criterion ONLYMUTATION: 69%
+* Total number of goals: 78
+* Number of covered goals: 54
+* Coverage of criterion MUTATION: 63%
+* Total number of goals: 78
+* Number of covered goals: 49
+* Coverage of criterion INPUT: 0%
+* Total number of goals: 11
+* Number of covered goals: 0
+* Coverage of criterion METHODTRACE: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Resulting test suite's coverage: 74% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 63%
+* Compiling and checking tests
+[MASTER] 14:37:16.794 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out
+[MASTER] 14:37:16.796 [pool-2-thread-1] WARN  TimeController - Phase JUNIT_CHECK lasted too long, 4 seconds more than allowed.
+* Writing JUnit test case 'DecimalToAnyBase_ESTest' to C:\Users\jeanc\eclipse-workspace\javaee\aps\.evosuite\tmp_2018_07_02_14_35_39\tests
+* Done!
+

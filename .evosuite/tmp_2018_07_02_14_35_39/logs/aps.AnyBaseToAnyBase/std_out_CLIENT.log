@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 4421
+* Analyzing classpath: 
+  - C:\Users\jeanc\eclipse-workspace\javaee\aps\target\classes
+* Finished analyzing classpath
+* Generating tests for class aps.AnyBaseToAnyBase
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 14:35:46.465 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\jeanc\eclipse-workspace\javaee\aps\.evosuite\evosuite-seeds\aps.AnyBaseToAnyBase.seed
+* Total number of test goals: 
+  - Line 48
+  - Branch 27
+  - Exception 0
+  - MutationFactory 577
+  - Output 4
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 27
+* Using seed 1530552941879
+* Starting evolution
+* Search finished after 103s and 16 generations, 8382 statements, best individual has fitness: 221.14285714285714
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 14:37:58.440 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 73%
+* Total number of goals: 48
+* Number of covered goals: 35
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 63%
+* Total number of goals: 27
+* Number of covered goals: 17
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 86%
+* Total number of goals: 7
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 86%
+* Total number of goals: 577
+* Number of covered goals: 498
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 75%
+* Total number of goals: 4
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 63%
+* Total number of goals: 27
+* Number of covered goals: 17
+* Generated 13 tests with total length 93
+* Coverage of criterion STATEMENT: 85%
+* Total number of goals: 352
+* Number of covered goals: 298
+* Coverage of criterion ONLYBRANCH: 62%
+* Total number of goals: 26
+* Number of covered goals: 16
+* Coverage of criterion IBRANCH: 40%
+* Total number of goals: 43
+* Number of covered goals: 17
+* Coverage of criterion ONLYMUTATION: 86%
+* Total number of goals: 577
+* Number of covered goals: 498
